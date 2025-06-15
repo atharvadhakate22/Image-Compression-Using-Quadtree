@@ -4,21 +4,6 @@ This Java project implements an **image compression algorithm** based on the **Q
 
 ---
 
-## Table of Contents
-
-- [Introduction](#introduction)  
-- [How It Works](#how-it-works)  
-- [Features](#features)  
-- [Class Structure](#class-structure)  
-- [Usage Instructions](#usage-instructions)  
-- [Example Run](#example-run)  
-- [Performance Metrics](#performance-metrics)  
-- [Requirements](#requirements)  
-- [Notes](#notes)  
-- [License](#license)  
-
----
-
 ## Introduction
 
 Image compression reduces the size of image files to save storage space and transmission bandwidth. Unlike traditional compression algorithms (JPEG, PNG), this project uses **Quadtree-based spatial partitioning** to approximate image regions with uniform color blocks.
@@ -80,4 +65,26 @@ This technique subdivides an image into square regions and merges blocks where p
 1. **Compile the project** (assuming `Main.java` and `util/CompressImage.java` are in place):
 
    ```bash
-   javac Main.java
+   javac Main.java'
+
+
+
+Enter local image path: images/sample.jpg
+Enter threshold: 12.5
+
+Reading local image...
+Done.
+Compressing image...
+Done.
+
+Enter output path: output/compressed_sample.jpg
+Saving compressed image...
+Done.
+
+Compression Information:
+Original Image Size: 2048 KB
+Compressed Image Size: 512 KB
+Compression Ratio: 4.0
+Compression Time: 750 ms
+Max Depth of QuadTree: 7
+
