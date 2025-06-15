@@ -68,23 +68,27 @@ This technique subdivides an image into square regions and merges blocks where p
    javac Main.java'
 
 
+## Example Run
 
-Enter local image path: images/sample.jpg
-Enter threshold: 12.5
+**Enter local image path:** `images/sample.jpg`  
+**Enter threshold:** `12.5`
 
-Reading local image...
-Done.
-Compressing image...
-Done.
-
-Enter output path: output/compressed_sample.jpg
-Saving compressed image...
+**Reading local image...**  
+Done.  
+**Compressing image...**  
 Done.
 
-Compression Information:
-Original Image Size: 2048 KB
-Compressed Image Size: 512 KB
-Compression Ratio: 4.0
-Compression Time: 750 ms
-Max Depth of QuadTree: 7
+**Enter output path:** `output/compressed_sample.jpg`  
+**Saving compressed image...**  
+Done.
+
+---
+
+### Compression Information:
+- **Original Image Size:** 2048 KB  
+- **Compressed Image Size:** 512 KB  
+- **Compression Ratio:** 4.0  
+- **Compression Time:** 750 ms  
+- **Max Depth of QuadTree:** 7
+
 
